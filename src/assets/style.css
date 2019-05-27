@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+
+html,
+body,
+#root {
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+body {
+    margin:0;
+}
+
+.namecard {
+    width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.namecard .avatar {
+    width: 20%;
+}
+
+.namecard .avatar img {
+    width: 80%;
+    align-self: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.namecard .linkbar h1 {
+    /* display: inline-block;
+    padding-left: 10px;
+    position: relative; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-end; */
+
+    display: inline-block;
+    float: right;
+    padding-left: 5%;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+  
+/* visited link */
+a:visited {
+color: white;
+}
+  
+/* mouse over link */
+a:hover {
+color: hotpink;
+}
+  
+/* selected link */
+a:active {
+color: white;
+}
+
